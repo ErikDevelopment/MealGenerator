@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Gebratener Lachs mit Gemüse",
+        "ingredients": ["2 Lachsfilets", "200g Gemüse (z.B. Brokkoli, Karotten, Paprika)", "Olivenöl", "Salz", "Pfeffer", "Knoblauchpulver"],
+        "instructions": "Lachsfilets mit Olivenöl beträufeln und mit Salz, Pfeffer und Knoblauchpulver würzen. In einer Pfanne braten, bis sie goldbraun sind. Das Gemüse in Olivenöl anbraten und mit Salz und Pfeffer würzen. Zusammen mit dem Lachs servieren.",
+        "image": "images/gebratener_lachs_mit_gemuese.jpg",
+        "details": {
+            "duration": "⏱️ Dauer: 20min",
+            "difficulty": "🔪 Schwierigkeit: Einfach",
+            "servings": "🍽️ Portionen: 2"
+        }
+    },
+    {
+        "title": "Gegrilltes Hähnchen mit Quinoa-Salat",
+        "ingredients": ["2 Hähnchenbrustfilets", "100g Quinoa", "Gemüsebrühe", "Gemischter Salat (z.B. Rucola, Tomaten, Gurken)", "Balsamico-Dressing"],
+        "instructions": "Hähnchenbrustfilets mit Salz, Pfeffer und Gewürzen nach Belieben würzen und auf dem Grill oder in einer Grillpfanne garen. Quinoa in Gemüsebrühe kochen, bis es gar ist. Mit dem gemischten Salat und Balsamico-Dressing servieren.",
+        "image": "images/gegrilltes_haehnchen_mit_quinoa_salat.jpg",
+        "details": {
+            "duration": "⏱️ Dauer: 30min",
+            "difficulty": "🔪 Schwierigkeit: Mittel",
+            "servings": "🍽️ Portionen: 2"
+        }
+    },
+    {
+        "title": "Tofu Stir-Fry",
+        "ingredients": ["200g Tofu", "Gemischtes Gemüse (z.B. Paprika, Zucchini, Karotten)", "Sojasauce", "Ingwer", "Knoblauch", "Reis"],
+        "instructions": "Tofu in Würfel schneiden und in Sojasauce marinieren. Gemüse, Ingwer und Knoblauch in einer Pfanne anbraten. Tofu hinzufügen und anbraten, bis es goldbraun ist. Mit Reis servieren.",
+        "image": "images/tofu_stir_fry.jpg",
+        "details": {
+            "duration": "⏱️ Dauer: 25min",
+            "difficulty": "🔪 Schwierigkeit: Einfach",
+            "servings": "🍽️ Portionen: 2"
+        }
+    }
+]

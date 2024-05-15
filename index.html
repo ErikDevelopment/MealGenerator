@@ -1,0 +1,63 @@
+<!-- HTML Kommentare können verwendet werden, um die Struktur des Dokuments zu erklären -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <!-- Meta-Tags für die Darstellung auf verschiedenen Geräten -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zufällige Mahlzeit</title>
+    <!-- Verknüpfung mit externem CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hauptcontainer -->
+    <div class="container">
+        <!-- Überschrift -->
+        <h1>Zufällige Mahlzeit</h1>
+        <!-- Mahlkartenbereich -->
+        <div class="meal-card" id="mealCard">
+            <!-- Mahlzeittitel -->
+            <div class="meal-header" id="mealTitle">Klicke auf den Button, um eine Mahlzeit auszuwählen!</div>
+            <!-- Mahlzeitdetails -->
+            <div class="meal-body">
+                <!-- Zutatenbereich -->
+                <div class="meal-ingredients-container">
+                    <!-- Überschrift für Zutaten -->
+                    <h3 class="hidden" id="ingredientsTitle">Zutaten</h3>
+                    <!-- Platzhalter für Zutaten -->
+                    <div class="placeholder hidden" id="ingredientsPlaceholder"></div>
+                    <!-- Zutatenliste -->
+                    <div class="meal-ingredients" id="mealIngredients"></div>
+                </div>
+                <!-- Detailsbereich -->
+                <div class="meal-details-container">
+                    <!-- Überschrift für Details -->
+                    <h3 class="hidden" id="detailsTitle">Details</h3>
+                    <!-- Platzhalter für Details -->
+                    <div class="placeholder hidden" id="detailsPlaceholder"></div>
+                    <!-- Detailsinhalt -->
+                    <div class="meal-details" id="mealDetails"></div>
+                </div>
+                <!-- Bildbereich -->
+                <div class="meal-image" id="mealImage">
+                    <!-- Platzhalter für Bild -->
+                    <div class="placeholder" id="imagePlaceholder"></div>
+                </div>
+            </div>
+            <!-- Anleitungsbereich -->
+            <div class="meal-instructions-container">
+                <!-- Überschrift für Anleitung -->
+                <h3 class="hidden" id="instructionsTitle">Anleitung</h3>
+                <!-- Platzhalter für Anleitung -->
+                <div class="placeholder hidden" id="instructionsPlaceholder"></div>
+                <!-- Anleitungsinhalt -->
+                <div class="meal-instructions" id="mealInstructions"></div>
+            </div>
+        </div>
+        <!-- Button zum Auswählen einer Mahlzeit -->
+        <button class="random-button" onclick="getRandomMeal()">Mahlzeit auswählen</button>
+    </div>
+    <!-- Verknüpfung mit externem JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
