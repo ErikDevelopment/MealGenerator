@@ -12,7 +12,7 @@ Dies ist eine einfache Webanwendung, die es Benutzern ermöglicht, zufällige Ma
 
 ## Verwendung:
 
-1. Besuchen Sie die Website [Random Meal Generator](#) (https://erikdevelopment.github.io/MealGenerator/).
+1. Besuchen Sie die Website [Random Meal Generator](https://erikdevelopment.github.io/MealGenerator/) .
 2. Klicken Sie auf die Schaltfläche "Mahlzeit auswählen", um eine zufällige Mahlzeit anzuzeigen.
 3. Lesen Sie die Details, Zutaten und Anweisungen für die Zubereitung der ausgewählten Mahlzeit.
 4. Genießen Sie Ihr zufällig ausgewähltes Gericht und lassen Sie sich inspirieren!
